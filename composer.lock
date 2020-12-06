@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15391475bae2bb3ecfb224a816c97532",
+    "content-hash": "ac17d5229e099b96535c264df4f4373b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -423,21 +423,22 @@
         },
         {
             "name": "dusterio/lumen-passport",
-            "version": "0.2.20",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dusterio/lumen-passport.git",
-                "reference": "58a986948b4a5cd29e50ac57638cba1f88f3328d"
+                "reference": "14fcdb45bb7edd8aa9577a2bcd4c90b0d344886d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dusterio/lumen-passport/zipball/58a986948b4a5cd29e50ac57638cba1f88f3328d",
-                "reference": "58a986948b4a5cd29e50ac57638cba1f88f3328d",
+                "url": "https://api.github.com/repos/dusterio/lumen-passport/zipball/14fcdb45bb7edd8aa9577a2bcd4c90b0d344886d",
+                "reference": "14fcdb45bb7edd8aa9577a2bcd4c90b0d344886d",
                 "shasum": ""
             },
             "require": {
                 "illuminate/database": "~5.3|~5.4|~5.5|~5.6|^6.0|^7.0|^8.0",
                 "illuminate/support": "~5.3|~5.4|~5.5|~5.6|^6.0|^7.0|^8.0",
+                "laminas/laminas-diactoros": "^2.4",
                 "laravel/passport": ">=0.2.2",
                 "php": ">=5.6.4"
             },
@@ -475,9 +476,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dusterio/lumen-passport/issues",
-                "source": "https://github.com/dusterio/lumen-passport/tree/master"
+                "source": "https://github.com/dusterio/lumen-passport/tree/0.3.1"
             },
-            "time": "2020-09-02T14:51:01+00:00"
+            "time": "2020-09-26T02:23:02+00:00"
         },
         {
             "name": "egulias/email-validator",
